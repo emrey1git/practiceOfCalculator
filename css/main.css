@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.app {
+    width: 232px;
+    height: 321px;
+    display: flex;
+    flex-direction:column;
+    border: 1px solid black;
+        border-radius: 5px;
+        overflow: hidden;
+}
+.text-box{
+    width: 232px;
+    height: 81px;
+    background-color: #777677;
+    
+}
+.settings {
+    position: absolute;
+     margin-top: 8px;
+    margin-left: 8px;
+    width: 16px;
+    height: 16px;
+}
+.text {
+    width: 225px;
+    height: 81px;
+    background-color: transparent;
+    text-align: right;
+    font-size: 44px;
+}   
+.number-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.number-box button {    
+    width: 58px;
+    height: 48px;
+    color: white;
+    border: 0px solid transparent;
+}
+.button-ac {
+    background-color: #585859;
+}
+
+.button-arti-bolu-eksi,
+.button-persent,
+.button-nokta {
+    background-color: #777677;
+}
+.button-bolme,
+.button-carp,
+.button-cikarma,
+.button-topla,
+.button-esittir{
+    background-color: #FF9F0A;
+}
+.button-zero,
+.button-one,
+.button-two,
+.button-three,
+.button-four,
+.button-five,
+.button-six,
+.button-seven,
+.button-eight,
+.button-nine{
+    background-color: #777677;
+}
+
+.number-box .button-zero {
+    width: 116px;
+}
